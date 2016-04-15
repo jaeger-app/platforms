@@ -1,21 +1,21 @@
 {
-  "name" : "jaeger-app/platforms",
-  "description" : "A CMS Platform abstraction layer for platform agnostic development.",
-  "require" : {
-    "php" : ">=5.4.0",
-    "jaeger-app/exceptions": "dev-master"
-  },
-  "require-dev" : {
-    "phpunit/phpunit" : "4.*"
-  },
-  "authors" : [ {
-    "name" : "Eric Lamb",
-    "email" : "eric@mithra62.com"
-  } ],
-  "autoload" : {
-    "psr-4" : {
-      "JaegerApp\\" : "src/"
-    }
-  },
-  "license" : "MIT"
+	"name": "jaeger-app/platforms",
+	"description": "A CMS Platform abstraction layer for platform agnostic development.",
+	"require": {
+		"php": ">=5.4.0",
+		"jaeger-app/exceptions": "dev-master"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.*"
+	},
+	"authors": [{
+		"name": "Eric Lamb",
+		"email": "eric@mithra62.com"
+	}],
+	"autoload": {
+		"psr-4": {
+			"JaegerApp\\": "src/"
+		}
+	},
+	"license": "MIT"
 }
