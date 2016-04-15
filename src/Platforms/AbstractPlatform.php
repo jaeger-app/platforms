@@ -10,7 +10,7 @@
 namespace JaegerApp\Platforms;
 
 /**
- * mithra62 - Platform Abstract
+ * Jaeger - Platform Abstract
  *
  * Defines the methods each platform must implement to communicate between themselves
  *
