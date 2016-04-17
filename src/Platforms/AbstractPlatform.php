@@ -38,6 +38,12 @@ abstract class AbstractPlatform
             'port' => ''
         )
     );
+    
+    /**
+     * The settings table name
+     * @var string
+     */
+    protected $settings_table = '';
 
     /**
      * Returns an array of details about interacting with the database
@@ -104,5 +110,25 @@ abstract class AbstractPlatform
         }
         
         return $default;
+    }
+    
+    /**
+     * Set the settings table
+     * @param string $table
+     * @return \JaegerApp\Platforms\AbstractPlatform
+     */
+    public function setSettingsTable($table)
+    {
+        $this->settings_table = $table;
+        return $this;
+    }
+    
+    /**
+     * Returns the settings table
+     * @return string
+     */
+    public function getSettingsTable()
+    {
+        return $this->settings_table;
     }
 }
