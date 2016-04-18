@@ -14,8 +14,16 @@
 	}],
 	"autoload": {
 		"psr-4": {
-			"JaegerApp\\": "src/"
+			"JaegerApp\\": "src"
 		}
 	},
+    "suggest": {
+        "jaeger-app/platforms-ee2": "Allows you to create ExpressionEngine 2 specific modules",
+        "jaeger-app/platforms-ee3": "Allows you to create ExpressionEngine 3 specific modules",
+        "jaeger-app/platforms-craft": "Allows you to create Craft specific plugins",
+        "jaeger-app/platforms-c5": "Allows you to create Concrete5 specific packages",
+        "jaeger-app/platforms-wp": "Allows you to create WordPress specific plugins",
+        "jaeger-app/platforms-prestashop": "Allows you to create PrestaShop specific modules"
+    },
 	"license": "MIT"
 }
