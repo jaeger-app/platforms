@@ -15,6 +15,8 @@ Add `jaeger-app/platforms` as a requirement to your `composer.json`:
 $ composer require jaeger-app/platforms
 ```
 
+## Description
+
 `jaegerApp\Platforms\AbstractPlatform` outlines the various methods the Platform objects have to provide. At this time, they are:
 
 ```php
