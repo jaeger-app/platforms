@@ -8,9 +8,9 @@
  * @version		1.0
  * @filesource 	./mithra62/Exceptions/PlatformsException.php
  */
-namespace mithra62\Exceptions;
+namespace JaegerApp\Exceptions;
 
-use mithra62\Exception;
+use JaegerApp\Exception;
 
 /**
  * mithra62 - Platforms Exception Object
